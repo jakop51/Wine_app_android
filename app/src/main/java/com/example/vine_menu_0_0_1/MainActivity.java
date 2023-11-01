@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setCategoryRecycler(List<Category> categoryList) {
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.HORIZONTAL, false);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
         categoryRecycler = findViewById(R.id.categoryRecycler);
         categoryRecycler.setLayoutManager(layoutManager);
 
