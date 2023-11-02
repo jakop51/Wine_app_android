@@ -62,10 +62,11 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/categoryRecycler"
-        android:layout_width="274dp"
-        android:layout_height="447dp"
+        android:layout_width="338dp"
+        android:layout_height="36dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
