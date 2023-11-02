@@ -2,14 +2,14 @@ package com.example.vine_menu_0_0_1.model;
 
 public class Products {
     int id;
-    String img, title, date, level, color;
+    String img, title, percentOfAlcohol, priceOfBottle, color;
 
-    public Products(int id, String img, String title, String date, String level, String color) {
+    public Products(int id, String img, String title, String percentOfAlcohol, String priceOfBottle, String color) {
         this.id = id;
         this.img = img;
         this.title = title;
-        this.date = date;
-        this.level = level;
+        this.percentOfAlcohol = percentOfAlcohol;
+        this.priceOfBottle = priceOfBottle;
         this.color = color;
     }
 
@@ -37,20 +37,20 @@ public class Products {
         this.title = title;
     }
 
-    public String getDate() {
-        return date;
+    public String getPercentOfAlcohol() {
+        return percentOfAlcohol;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setPercentOfAlcohol(String percentOfAlcohol) {
+        this.percentOfAlcohol = percentOfAlcohol;
     }
 
-    public String getLevel() {
-        return level;
+    public String getPriceOfBottle() {
+        return priceOfBottle;
     }
 
-    public void setLevel(String level) {
-        this.level = level;
+    public void setPriceOfBottle(String priceOfBottle) {
+        this.priceOfBottle = priceOfBottle;
     }
 
     public String getColor() {
