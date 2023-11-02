@@ -14,14 +14,75 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/vine_icon"
-            android:contentDescription="@string/app_name_ukr"
-            tools:layout_editor_absoluteX="73dp"
-            tools:layout_editor_absoluteY="114dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="30dp"
+            android:background="@color/black">
+
+            <ImageView
+                android:id="@+id/productsImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name_ukr"
+                app:srcCompat="@drawable/vine_icon_2" />
+
+            <TextView
+                android:id="@+id/productsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_subrayada_bold"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:text="@string/app_name_ukr" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat_subrayada"
+                    android:textSize="10sp"
+                    android:layout_margin="8dp"
+                    android:text="@string/degree_of_alcohol" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat_subrayada"
+                    android:textSize="10sp"
+                    android:layout_margin="8dp"
+                    android:text="@string/price_for_bottle" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/percentOfAlcohol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat_subrayada"
+                    android:textSize="10sp"
+                    android:layout_margin="8dp"
+                    android:text="@string/app_name_ukr" />
+                <TextView
+                    android:id="@+id/priceForBottle"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/montserrat_subrayada"
+                    android:textSize="10sp"
+                    android:layout_margin="8dp"
+                    android:text="@string/app_name_ukr" />
+            </LinearLayout>
+        </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

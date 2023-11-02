@@ -2,4 +2,6 @@
     <string name="app_name">Vine_menu_0_0_1</string>
     <string name="icon_name">Icon</string>
     <string name="app_name_ukr">Wine Map</string>
+    <string name="degree_of_alcohol">% алкоголю</string>
+    <string name="price_for_bottle">Ціна за пляшку</string>
 </resources>
